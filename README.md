@@ -7,3 +7,17 @@ Using interactive web-based mapping, develop a range of features to support the 
 
 ### Initial techology stack (subject to alteration throughout course of project)
 Web (HTML, CSS), Javascript, PHP, Database, RESTful API, Mapping API
+
+
+
+
+# Requirements
+MoSCoW Prioritisation.
+
+#### Must
+
+#### Should
+
+#### Could
+
+#### Will Not
