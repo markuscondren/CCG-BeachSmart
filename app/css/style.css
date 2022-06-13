@@ -18,10 +18,30 @@
     --aero-blue: #d3ffe9ff;
     --middle-blue: #8ddbe0ff;
 }
+/* Global CSS*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--english-violet-2);
+}
 
+/* Navbar */
+#navbar *{
+    color: var(--white);
+}
+#navbar {
+    background-color: var(--english-violet);
+}
+
+#nav-toggle{
+    background-color: var(--english-violet-2);
+}
+#offcanvasNavbar{
+    background-color: var(--english-violet-2);
+}
 /* Map */
 
 #map{
+    margin-top: 50px;
     height: 70vh;
     width: 100%;
 }
