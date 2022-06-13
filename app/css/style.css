@@ -21,7 +21,8 @@
 /* Global CSS*/
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--english-violet-2);
+    color: var(--white);
+    background-color: var(--jet);
 }
 
 /* Navbar */
@@ -40,8 +41,11 @@ body{
 }
 /* Map */
 
+#map-filter{
+margin-top: 50px;
+}
 #map{
     margin-top: 50px;
-    height: 70vh;
+    height: 80vh;
     width: 100%;
 }

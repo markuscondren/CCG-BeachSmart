@@ -108,9 +108,9 @@ let layer = new L.TileLayer(
   ];
 
   // Variable to remove 'x' from corner of popup
-let popupOption = {
-    closeButton: false,
-  };
+// let popupOption = {
+//     closeButton: false,
+//   };
   
   // Foreach runs through each element in the array created above and populates the map with a marker and the relevant info
   locations.forEach(element => {
@@ -121,7 +121,7 @@ let popupOption = {
       // })
       //same as above but for a click - primarily for when using fingers or a stylus
       .on("click", event => {
-          event.target.bindPopup('<div class = "card"><h3>'+element.title+'</h3><br/><a href="'+element.uri+'">Learn More</a></div>', popupOption).openPopup();
+          event.target.bindPopup('<div class = "card"><h3>'+element.title+'</h3><br/><a href="'+element.uri+'">Learn More</a></div>').openPopup();
         })
   
   });
