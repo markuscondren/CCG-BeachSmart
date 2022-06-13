@@ -19,3 +19,9 @@
     --middle-blue: #8ddbe0ff;
 }
 
+/* Map */
+
+#map{
+    height: 70vh;
+    width: 100%;
+}
