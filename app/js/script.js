@@ -14,6 +14,7 @@ let mapOptions = {
 let layer = new L.TileLayer(
     "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
   );
+
   
   // Add layer to map
   map.addLayer(layer);
