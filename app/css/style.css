@@ -17,6 +17,54 @@
     --opal: #9bc4bcff;
     --aero-blue: #d3ffe9ff;
     --middle-blue: #8ddbe0ff;
+    
+    /* Personal colour scheme - full colour scheme to be confirmed */
+    
+    /* CSS HEX */
+--st-patricks-blue: #23297aff;
+--platinum: #e8e8e8ff;
+--dark-jungle-green: #0d160bff;
+--little-boy-blue: #659de1ff;
+--satin-sheen-gold: #c4a35bff;
+
+/* CSS HSL */
+--st-patricks-blue: hsla(236, 55%, 31%, 1);
+--platinum: hsla(0, 0%, 91%, 1);
+--dark-jungle-green: hsla(109, 33%, 6%, 1);
+--little-boy-blue: hsla(213, 67%, 64%, 1);
+--satin-sheen-gold: hsla(41, 47%, 56%, 1);
+
+/* SCSS HEX */
+$st-patricks-blue: #23297aff;
+$platinum: #e8e8e8ff;
+$dark-jungle-green: #0d160bff;
+$little-boy-blue: #659de1ff;
+$satin-sheen-gold: #c4a35bff;
+
+/* SCSS HSL */
+$st-patricks-blue: hsla(236, 55%, 31%, 1);
+$platinum: hsla(0, 0%, 91%, 1);
+$dark-jungle-green: hsla(109, 33%, 6%, 1);
+$little-boy-blue: hsla(213, 67%, 64%, 1);
+$satin-sheen-gold: hsla(41, 47%, 56%, 1);
+
+/* SCSS RGB */
+$st-patricks-blue: rgba(35, 41, 122, 1);
+$platinum: rgba(232, 232, 232, 1);
+$dark-jungle-green: rgba(13, 22, 11, 1);
+$little-boy-blue: rgba(101, 157, 225, 1);
+$satin-sheen-gold: rgba(196, 163, 91, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #23297aff, #e8e8e8ff, #0d160bff, #659de1ff, #c4a35bff);
+$gradient-right: linear-gradient(90deg, #23297aff, #e8e8e8ff, #0d160bff, #659de1ff, #c4a35bff);
+$gradient-bottom: linear-gradient(180deg, #23297aff, #e8e8e8ff, #0d160bff, #659de1ff, #c4a35bff);
+$gradient-left: linear-gradient(270deg, #23297aff, #e8e8e8ff, #0d160bff, #659de1ff, #c4a35bff);
+$gradient-top-right: linear-gradient(45deg, #23297aff, #e8e8e8ff, #0d160bff, #659de1ff, #c4a35bff);
+$gradient-bottom-right: linear-gradient(135deg, #23297aff, #e8e8e8ff, #0d160bff, #659de1ff, #c4a35bff);
+$gradient-top-left: linear-gradient(225deg, #23297aff, #e8e8e8ff, #0d160bff, #659de1ff, #c4a35bff);
+$gradient-bottom-left: linear-gradient(315deg, #23297aff, #e8e8e8ff, #0d160bff, #659de1ff, #c4a35bff);
+$gradient-radial: radial-gradient(#23297aff, #e8e8e8ff, #0d160bff, #659de1ff, #c4a35bff);
 }
 /* Global CSS*/
 body{
