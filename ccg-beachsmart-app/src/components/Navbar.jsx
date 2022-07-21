@@ -3,7 +3,6 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="container-fluid">
       <nav className="navbar fixed-top" id="navbar">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
@@ -66,7 +65,6 @@ function Navbar() {
           </div>
         </div>
       </nav>
-    </div>
   );
 }
 
