@@ -1,6 +1,15 @@
 # CCG-BeachSmart
 MSc Software Development - Dissertation project.
 
+
+# To run react app
+o Open files in VS Code (or whichever IDE you use)
+o If you don't have react installed follow docs at https://reactjs.org/docs/getting-started.html
+o Open new terminal for ccg-beachsmart
+o Run the command 'npm start' in the terminal
+
+API URL - http://mcondren03.webhosting6.eeecs.qub.ac.uk/beachsmart/beachsmart-api/admin/points-of-interest-all.php
+
 # Project Brief
 
 Using interactive web-based mapping, develop a range of features to support the development of a BeachSmart campaign informing residents & visitors of environmental issues they should be aware of before using the renowned beaches & coast of the Causeway Coast and Glens.
